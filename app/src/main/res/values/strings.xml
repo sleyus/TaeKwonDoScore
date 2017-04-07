@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">"TaeKwonDo Score "</string>
+    <string name="background_image">background image</string>
+    <string name="player_a">Player A</string>
+    <string name="_0">0</string>
+    <string name="kyong_go">KYONG-GO</string>
+    <string name="_4">+ 4</string>
+    <string name="_3">+ 3</string>
+    <string name="_2">+ 2</string>
+    <string name="_1">+ 1</string>
+    <string name="gam_jeon">Gam-jeon</string>
+    <string name="reset">RESET</string>
+    <string name="player_b">Player B</string>
+</resources>

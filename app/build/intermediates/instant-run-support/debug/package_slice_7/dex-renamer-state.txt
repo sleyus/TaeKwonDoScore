@@ -1,0 +1,4 @@
+#Fri Apr 07 07:08:37 CEST 2017
+base.0=/Users/songheeeggeling-hur/StudioProjects/TaeKwonDoScore/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/Users/songheeeggeling-hur/StudioProjects/TaeKwonDoScore/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

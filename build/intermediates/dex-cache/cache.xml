@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/songheeeggeling-hur/StudioProjects/TaeKwonDoScore/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ff190dbbc287959c574805696b1d796b967c1035">
+        <dex dex="/Users/songheeeggeling-hur/StudioProjects/TaeKwonDoScore/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_047c9c09a27530d2b2ef9729f7dc29d2f39b6b1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/songheeeggeling-hur/StudioProjects/TaeKwonDoScore/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/songheeeggeling-hur/StudioProjects/TaeKwonDoScore/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5e57a72dbe6f46255ef53e8ce8f6019384880486/classes.dex" />
+    </item>
+
+</items>
