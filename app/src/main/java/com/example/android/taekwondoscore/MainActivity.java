@@ -8,10 +8,10 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    int ScorePlayerA = 0;
-    int ScorePlayerB = 0;
-    int ScoreKyounggoPlayerA=0;
-    int ScoreKyounggoPlayerB=0;
+    private int scorePlayerA = 0;
+    private int scorePlayerB = 0;
+    private int scoreKyounggoPlayerA=0;
+    private int scoreKyounggoPlayerB=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,80 +42,80 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
     public void addOneForPlayerA(View v) {
-        ScorePlayerA = ScorePlayerA + 1;
-        displayForPlayerA(ScorePlayerA);
+        scorePlayerA ++;
+        displayForPlayerA(scorePlayerA);
     }
     public void addTwoForPlayerA(View v) {
-        ScorePlayerA = ScorePlayerA + 2;
-        displayForPlayerA(ScorePlayerA);
+        scorePlayerA +=2;
+        displayForPlayerA(scorePlayerA);
     }
     public void addThreeForPlayerA(View v) {
-        ScorePlayerA = ScorePlayerA + 3;
-        displayForPlayerA(ScorePlayerA);
+        scorePlayerA +=3;
+        displayForPlayerA(scorePlayerA);
     }
     public void addFourForPlayerA(View v) {
-        ScorePlayerA = ScorePlayerA + 4;
-        displayForPlayerA(ScorePlayerA);
+        scorePlayerA +=4;
+        displayForPlayerA(scorePlayerA);
     }
     public void minusOneForPlayerA(View v) {
-        ScorePlayerA = ScorePlayerA -1;
-        displayForPlayerA(ScorePlayerA);
+        scorePlayerA -=1;
+        displayForPlayerA(scorePlayerA);
     }
     public void addOneForKyounggoPlayerA(View v){
 
-            if (ScoreKyounggoPlayerA ==1) {
-                ScoreKyounggoPlayerA=0;
-                displayKyounggoPlayerA(ScoreKyounggoPlayerA);
-                ScorePlayerA--;
-                displayForPlayerA(ScorePlayerA);
+            if (scoreKyounggoPlayerA ==1) {
+                scoreKyounggoPlayerA=0;
+                displayKyounggoPlayerA(scoreKyounggoPlayerA);
+                scorePlayerA--;
+                displayForPlayerA(scorePlayerA);
             }
         else {
-                ScoreKyounggoPlayerA++;
-                displayKyounggoPlayerA(ScoreKyounggoPlayerA);
+                scoreKyounggoPlayerA++;
+                displayKyounggoPlayerA(scoreKyounggoPlayerA);
             }
     }
     public void addOneForPlayerB(View v) {
-        ScorePlayerB = ScorePlayerB + 1;
-        displayForPlayerB(ScorePlayerB);
+        scorePlayerB += 1;
+        displayForPlayerB(scorePlayerB);
     }
     public void addTwoForPlayerB(View v) {
-        ScorePlayerB = ScorePlayerB + 2;
-        displayForPlayerB(ScorePlayerB);
+        scorePlayerB += 2;
+        displayForPlayerB(scorePlayerB);
     }
     public void addThreeForPlayerB(View v) {
-        ScorePlayerB = ScorePlayerB + 3;
-        displayForPlayerB(ScorePlayerB);
+        scorePlayerB += 3;
+        displayForPlayerB(scorePlayerB);
     }
     public void addFourForPlayerB(View v) {
-        ScorePlayerB = ScorePlayerB + 4;
-        displayForPlayerB(ScorePlayerB);
+        scorePlayerB += 4;
+        displayForPlayerB(scorePlayerB);
     }
     public void minusOneForPlayerB(View v) {
-        ScorePlayerB = ScorePlayerB -1;
-        displayForPlayerB(ScorePlayerB);
+        scorePlayerB -=1;
+        displayForPlayerB(scorePlayerB);
     }
 
     public void addOneForKyounggoPlayerB(View v) {
 
-        if (ScoreKyounggoPlayerB == 1) {
-            ScoreKyounggoPlayerB = 0;
-            displayKyounggoPlayerB(ScoreKyounggoPlayerB);
-            ScorePlayerB--;
-            displayForPlayerB(ScorePlayerB);
+        if (scoreKyounggoPlayerB == 1) {
+            scoreKyounggoPlayerB = 0;
+            displayKyounggoPlayerB(scoreKyounggoPlayerB);
+            scorePlayerB--;
+            displayForPlayerB(scorePlayerB);
         } else {
-            ScoreKyounggoPlayerB++;
-            displayKyounggoPlayerB(ScoreKyounggoPlayerB);
+            scoreKyounggoPlayerB++;
+            displayKyounggoPlayerB(scoreKyounggoPlayerB);
         }
     }
     public void resetScore(View v){
-        ScorePlayerA = 0;
-        ScorePlayerB = 0;
-        ScoreKyounggoPlayerA = 0;
-        ScoreKyounggoPlayerB = 0;
-        displayForPlayerA(ScorePlayerA);
-        displayForPlayerB(ScorePlayerB);
-        displayKyounggoPlayerA(ScoreKyounggoPlayerA);
-        displayKyounggoPlayerB(ScoreKyounggoPlayerB);
+        scorePlayerA = 0;
+        scorePlayerB = 0;
+        scoreKyounggoPlayerA = 0;
+        scoreKyounggoPlayerB = 0;
+        displayForPlayerA(scorePlayerA);
+        displayForPlayerB(scorePlayerB);
+        displayKyounggoPlayerA(scoreKyounggoPlayerA);
+        displayKyounggoPlayerB(scoreKyounggoPlayerB);
     }
     /**
      * Displays the given score for Team A.

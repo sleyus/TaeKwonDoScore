@@ -7,6 +7,9 @@
         <item name="colorPrimaryDark">#E64A19</item>
         <item name="colorAccent">#FF5722</item>
         <item name="colorButtonNormal">#FFC107</item>
+        <item name="edit_text_text_color1">#616161</item>
+        <item name="edit_text_text_color2">#000000</item>
+
     </style>
 
 </resources>
